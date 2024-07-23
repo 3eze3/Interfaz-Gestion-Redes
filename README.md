@@ -1,6 +1,8 @@
 # Análisis Básico de Redes con Tkinter
 ## Introducción
-Este proyecto es una aplicación de escritorio desarrollada en Python utilizando la biblioteca Tkinter. Su propósito es ofrecer una interfaz gráfica simple para realizar análisis básicos de redes, como comandos de ping, traceroute y escaneo de puertos. Es una herramienta útil para la práctica y el aprendizaje en el campo del hacking ético y el análisis de redes.
+Este proyecto es una aplicación de escritorio desarrollada en Python utilizando la biblioteca Tkinter. 
+Su propósito es ofrecer una interfaz gráfica simple para realizar análisis básicos de redes, como comandos de ping, traceroute y escaneo de puertos. 
+Es una herramienta útil para la práctica y el aprendizaje en el campo del hacking ético y el análisis de redes.
 
 ## Desarrollo
 La aplicación está construida utilizando Python y Tkinter para la interfaz gráfica de usuario. El proyecto emplea la biblioteca subprocess para ejecutar comandos de red y capturar sus resultados. La interfaz permite al usuario ingresar direcciones IP o dominios y ver los resultados directamente en la aplicación.
@@ -11,13 +13,17 @@ La aplicación está construida utilizando Python y Tkinter para la interfaz gr�
 Navega entre diferentes funcionalidades: Ping, Traceroute, Escaneo de Puertos.
 Funcionalidad Ping
 
+#### Funcionalidad PING
+
 Permite al usuario ingresar una dirección IP o dominio y ejecutar el comando ping.
 Muestra los resultados del ping en un área de texto.
-Funcionalidad Traceroute
+
+#### Funcionalidad Traceroute
 
 Permite al usuario ingresar una dirección IP o dominio y ejecutar el comando traceroute.
 Muestra los resultados del traceroute en un área de texto.
-Funcionalidad Escaneo de Puertos
+
+#### Funcionalidad Escaneo de Puertos
 
 Permite al usuario ingresar una dirección IP o dominio y un rango de puertos para escanear.
 Ejecuta un escaneo de puertos utilizando nmap y muestra los resultados en un área de texto.
@@ -63,7 +69,6 @@ Ejecuta la Aplicación
 Ejecuta el script principal de la aplicación:
 
 ```bash
-Copy code
 python app.py
 ```
 
