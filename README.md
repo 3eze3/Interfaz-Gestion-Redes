@@ -54,7 +54,7 @@ Salida: Resultados del escaneo de puertos, mostrando puertos abiertos y su estad
 Clona el Repositorio
 
 ```bash 
-git clone https://github.com/tu_usuario/analisis-basico-redes.git
+git clone https://github.com/3eze3/Interfaz-Gestion-Redes.git
 cd analisis-basico-redes
 ```
 Instala Dependencias
