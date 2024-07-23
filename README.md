@@ -1,5 +1,7 @@
 # Análisis Básico de Redes con Tkinter
+
 ## Introducción
+
 Este proyecto es una aplicación de escritorio desarrollada en Python utilizando la biblioteca Tkinter. 
 Su propósito es ofrecer una interfaz gráfica simple para realizar análisis básicos de redes como comando de ping 
 Es una herramienta útil para la práctica y el aprendizaje en el campo del hacking ético y el análisis de redes.
@@ -21,8 +23,6 @@ Navega entre diferentes funcionalidades: Ping, Traceroute, Escaneo de Puertos.
 Permite al usuario ingresar una dirección IP o dominio y ejecutar el comando ping.
 Muestra los resultados del ping en un área de texto.
 
-## Ping
-
 ### Entrada:
 
 Comando Ejecutado: ping <dirección IP o dominio>
@@ -38,15 +38,8 @@ Clona el Repositorio
 git clone https://github.com/3eze3/Interfaz-Gestion-Redes.git
 cd analisis-basico-redes
 ```
-Instala Dependencias
 
-Asegúrate de tener Python instalado. Luego, instala las dependencias necesarias:
-
-```bash
-pip install tkinter
-```
-
-Ejecuta la Aplicación
+## Ejecuta la Aplicación
 **Ejecuta el script principal de la aplicación:**
 
 ```bash
